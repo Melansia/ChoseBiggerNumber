@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
         val isAnswerCorrect : Boolean = if (isLeftButtonSelected) leftNum > rightNum else rightNum > leftNum
         if (isAnswerCorrect) {
             // Change the background colour
-            backgroundView.setBackgroundColor(Color.GREEN)
+            backgroundView.setBackgroundColor(Color.BLUE)
             Toast.makeText(this, "Correct", Toast.LENGTH_SHORT).show()
         } else {
             backgroundView.setBackgroundColor(Color.RED)
