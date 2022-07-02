@@ -18,20 +18,20 @@ The following **required** functionality is completed:
 The following **extensions** are implemented:
 
 * [X] Custom colors palette selected
-* [ ] Change the main theme colors
-* [ ] Custom button colors
+* [X] Change the main theme colors
+* [X] Custom button colors
 
-## Video Walkthrough
+## Video Walk-through
 
-Here's a walkthrough of implemented user stories:
+Here's a walk-through of implemented user stories:
 
-<img src='https://media.giphy.com/media/53JBUexk0wHaZacmIl/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://media.giphy.com/media/53JBUexk0wHaZacmIl/giphy.gif' title='Video Walk-through' width='' alt='Video Walk-through' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+
 
 ## License
 
