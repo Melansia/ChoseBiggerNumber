@@ -42,10 +42,10 @@ class MainActivity : AppCompatActivity() {
     private fun assignNumbersToButtons() {
         // Calling the Random function
         val r = Random
-        val leftNum : Int = r.nextInt(99)
+        val leftNum : Int = r.nextInt(10)
         var rightNum : Int = leftNum
         while (rightNum == leftNum){
-            rightNum = r.nextInt(99)
+            rightNum = r.nextInt(10)
         }
         buttonLeft.text = leftNum.toString()
         buttonRight.text = rightNum.toString()
