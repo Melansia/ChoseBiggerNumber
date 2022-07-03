@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
     private fun answerCheck(isLeftButtonSelected: Boolean){
         val leftNum = buttonLeft.text.toString().toInt()
         val rightNum = buttonRight.text.toString().toInt()
-        val isAnswerCorrect : Boolean = if (isLeftButtonSelected) leftNum > rightNum else rightNum > leftNum
+        val isAnswerCorrect = if (isLeftButtonSelected) leftNum > rightNum else rightNum > leftNum
         if (isAnswerCorrect) {
             // Change the background colour
             backgroundView.setBackgroundColor(Color.BLUE)
